@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_QuanLiLoaiSach"
+        android:icon="@drawable/bookicon"
+        android:title="@string/the_loai" />
+
+    <item
+        android:id="@+id/ic_QuanLiSach"
+        android:icon="@drawable/cateicon"
+        android:title="@string/quan_li_sach" />
+
+
+    <item
+        android:id="@+id/ic_QuanLiThongKe"
+        android:icon="@drawable/thongke"
+        android:title="@string/thong_ke" />
+
+
+    <item
+        android:id="@+id/ic_GioiThieu"
+        android:icon="@drawable/gioithieu"
+        android:title="@string/gioi_thieu" />
+
+
+    <item
+        android:id="@+id/ic_DangXuat"
+        android:icon="@drawable/emtwo"
+        android:title="@string/dang_xuat" />
+
+    <item
+        android:id="@+id/ic_Thoat"
+        android:icon="@drawable/thoat"
+        android:title="@string/ic_exit" />
+</menu>

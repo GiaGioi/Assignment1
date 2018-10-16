@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="5">
+
+        <EditText
+            android:id="@+id/edid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/Maloai"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textColor="@color/colorText1"
+            android:textColorHint="@color/colorText" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="50">
+
+        <EditText
+            android:id="@+id/edname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/nametypebook"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textColor="@color/colorText1"
+            android:textColorHint="@color/colorText" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="5">
+
+        <EditText
+            android:id="@+id/edposi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/posi"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:textColorHint="@color/colorText" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="255">
+
+        <EditText
+            android:id="@+id/eddes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/des"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColorHint="@color/colorText" />
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/login_button"
+        android:text="@string/btn_save"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnHuy"
+        android:layout_width="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10sp"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+        android:background="@drawable/login_button"
+        android:text="@string/btn_huy"
+        android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>
